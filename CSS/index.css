@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+.hyrje{
+  background-image: url("../imazhet/eee.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  color: white;
+}
+.hyrje h1 {
+    margin: 20px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.hyrje button {
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+.libraria-2025 {
+    border-radius: 40px;
+    background-color: #e0e0e0;
+    margin-top: 30px;
+}
+
+.libraria-2025 h3 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+#butoni1:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.card {
+    background-color: #f7f7f7;
+    border: 2px solid #000000;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover  {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgb(0, 0, 0, 0.5);
+    border-color: #333;
+}

@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: 'Playfair Display', serif;
+}
+
+
+.rreth-nesh {
+  background-color: #f9f9f9;
+  background-image: url("../imazhet/rrethnesh1.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  color: white;
+}
+
+.rreth-nesh h1 {
+  color: #0d6efd;
+  margin: 20px;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+
